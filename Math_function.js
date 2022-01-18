@@ -18,7 +18,7 @@
 // console.log(Math.floor(5.05));
 // console.log(Math.floor(a));
 // console.log(a);//this function temp change in code
-// Math.floor( 45.99);
+// console.log(Math.floor(-45.99));
 // Math.floor( 45.08); 
 // Math.floor(4); 
 // Math.floor(-54.08); 
@@ -37,7 +37,7 @@
 // console.log(Math.min(a,b));
 // const array1 = [2, 3, 1];
 // console.log(Math.min(...array1,200,2000));
-// console.log(Math.min(Math.min(Math.min(Math.max(...array1)))));
+// console.log(Math.max(Math.max(Math.max(Math.max(...array1)))));
 
 // pow
 // var a=10;
@@ -54,8 +54,9 @@
 //     return Math.floor(Math.random() * max);
 //   }
 //   console.log(getRandomInt(300));
+
 // function abc(max)
-// {
+// { 
 //     return Math.floor(Math.random()*(max));
 // }
 // console.log(abc(10));
@@ -64,12 +65,11 @@
 
 
 // fround
-// console.log(Math.fround(5.5));
+// console.log(Math.fround(5.50000));
 // console.log(Math.fround(5.000005));
 // console.log(Math.fround(5.05));
 
-// sin
-// console.log(Math.sin(3.14)*(10));
+
 
 //sqrt
 // console.log(Math.sqrt(9));
@@ -80,6 +80,7 @@
 // console.log(Math.sqrt(-5));
 
 // trunc
-console.log(Math.trunc(13.37));
-console.log(Math.trunc(42.84));
-console.log(Math.trunc(0.123)) = console.log(Math.trunc(-0.123))
+// console.log(Math.trunc(13.37));
+// console.log(Math.trunc(42.84));
+// console.log(Math.trunc(0.123));
+// console.log(Math.trunc(-0.123))
