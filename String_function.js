@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // const sentence = 'The quick brown fox jumps over the lazy dog.';
 
 // const index = 20;
@@ -73,41 +73,7 @@
 // const strCopy = str.split();
 //     console.log(str.split());
 
-//startsWith
-// const str1 = 'The quick brown fox jumps over the lazy dog.';
-// console.log(str1.startsWith('Sat'));
-// console.log(str1.startsWith('The'))
 
-// // substring
-// const str = 'Mozilla';
-// console.log(str.substring(5,-2));
-// console.log(str.substring(2));
-
-// toLocaleLowerCase
-// toLocaleUpperCase
-// toLowerCase
-// toUpperCase
-// const str1 = 'The quick brown fox jumps over the lazy dog.';
-// const str2 = `This Is True`;
-// console.log(`EN-US: ${str1.toLocaleLowerCase()}`);
-// console.log(`TR: ${str1.toLocaleUpperCase(`tr`)}`);
-// console.log(`this: ${str1.toUpperCase()}`);
-// console.log(str2.toLowerCase());
-// console.log(str2.toUpperCase());
-
-// trim
-// const greeting = '   Hello world!   ';
-// console.log(greeting.trim());
-// console.log(greeting);
-
-// trimEnd
-const greeting = '   Hello world!   ';
-console.log(greeting.length);
-
-console.log(greeting.trimEnd());
-const a=greeting.trimEnd();
-console.log(a.length); 
-=======
 // const sentence = 'The quick brown fox jumps over the lazy dog.';
 
 // const index = 20;
@@ -168,17 +134,39 @@ console.log(a.length);
 // console.log(str.slice(10,-20));//+-
 // console.log(str.slice(-25,-20));//--
 
-// split
-const str = 'The quick brown fox jumps over the lazy dog.';
 
-    console.log(str.split(' ')[5]);//this is use it:
+//startsWith
+// const str1 = 'The quick brown fox jumps over the lazy dog.';
+// console.log(str1.startsWith('Sat'));
+// console.log(str1.startsWith('The'))
 
-const words = str.split(' ');
-    console.log(words[5]);
+// // substring
+// const str = 'Mozilla';
+// console.log(str.substring(5,-2));
+// console.log(str.substring(2));
 
-const chars = str.split('');
-    console.log(chars[4]);
+// toLocaleLowerCase
+// toLocaleUpperCase
+// toLowerCase
+// toUpperCase
+// const str1 = 'The quick brown fox jumps over the lazy dog.';
+// const str2 = `This Is True`;
+// console.log(`EN-US: ${str1.toLocaleLowerCase()}`);
+// console.log(`TR: ${str1.toLocaleUpperCase(`tr`)}`);
+// console.log(`this: ${str1.toUpperCase()}`);
+// console.log(str2.toLowerCase());
+// console.log(str2.toUpperCase());
 
-const strCopy = str.split();
-    console.log(str.split());
->>>>>>> 888c62aafd8a3770f15e25e7589fc9183d186a12
+// trim
+// const greeting = '   Hello world!   ';
+// console.log(greeting.trim());
+// console.log(greeting);
+
+// trimEnd
+const greeting = '   Hello world!   ';
+console.log(greeting.length);
+
+console.log(greeting.trimEnd());
+const a=greeting.trimEnd();
+console.log(a.length); 
+
